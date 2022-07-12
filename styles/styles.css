@@ -5,9 +5,34 @@
   list-style: none;
 }
 
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 :root {
   --color-primary: #191d2b;
   --color-secondary: #27AE60;
+  --color-primary: #22283a;
+  --color-secondary: #f27fa2;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
