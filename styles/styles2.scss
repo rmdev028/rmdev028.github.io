@@ -1,0 +1,6 @@
+.portfolios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)!IMPORTANT;
+    grid-gap: 2rem;
+    margin-top: 3rem;
+}
